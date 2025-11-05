@@ -1,0 +1,50 @@
+# -------------------------------
+# Virtual Environment
+# -------------------------------
+venv/
+.env/
+.env.bak/
+.env.local
+
+# -------------------------------
+# Python Cache & Bytecode
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------------
+# Data & Temporary Files
+# -------------------------------
+# data/
+# *.csv
+# *.pkl
+# *.h5
+# *.json
+# *.db
+# *.sqlite3
+# *.sav
+# *.log
+
+# -------------------------------
+# # Notebooks and Outputs
+# # -------------------------------
+# *.ipynb_checkpoints/
+# recommender_miniproject.ipynb
+
+# -------------------------------
+# OS / IDE specific files
+# -------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------------
+# Streamlit / Cache / Build
+# -------------------------------
+.streamlit/
+**/__pycache__/
+*.pytest_cache/
+.cache/
